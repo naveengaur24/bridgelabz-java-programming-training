@@ -34,6 +34,4 @@ public class Substring {
 
         return true;
     }
-
-
 }
