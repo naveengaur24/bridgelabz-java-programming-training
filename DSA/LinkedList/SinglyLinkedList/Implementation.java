@@ -78,6 +78,20 @@ public class Implementation{
         secondLast.next=null;
         return head;
     }
+
+    public void reverse(){
+        Node prev=null;
+        Node current=head;
+        Node next;
+
+        while(current!=null){
+            next=current.next;
+            current.next=prev;
+            prev=current;
+            current=next;
+        }
+        head=prev;
+    }
     public void display(){
         Node temp=head;
         while(temp!=null){
@@ -121,6 +135,9 @@ public class Implementation{
 
         System.out.println("\n---------------------------------------");
         list.deleteLast();
+        list.display();
+        System.out.println("\n---------------------------------------");
+        list.reverse();
         list.display();
         
     }
