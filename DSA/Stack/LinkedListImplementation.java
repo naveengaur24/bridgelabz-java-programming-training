@@ -72,7 +72,7 @@ public class LinkedListImplementation {
 
         stack.display();
 
-        System.out.println("\n--------------------");
+        System.out.println("\n-------------------");
         System.out.println("Top element: " + stack.peek());
     }
 }
