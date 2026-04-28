@@ -75,7 +75,7 @@ import java.io.IOException;
 
 
 
-//                                                   Throws Keyword------>>>>>
+//                                                   Throws Keyword------>>>>>  throws keyword ko hum method signature me use karte hai jab hum kisi method ke andar koi checked exception throw karte hai to usko handle karne ke liye throws keyword ka use karte hai. throws keyword se hum compiler ko batate hai ki ye method ek checked exception throw kar sakta hai aur is exception ko handle karna caller method ka responsibility hai. throws keyword se hum multiple exceptions bhi declare kar sakte hai, unhe comma se separate karke. throws keyword se hum apne code ko cleaner aur more readable bana sakte hai, kyunki hum exception handling ko caller method par delegate kar dete hai, jisse caller method apne hisab se exception ko handle kar sakta hai.
 
 // public class Exceptions {
 
