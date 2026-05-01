@@ -99,7 +99,6 @@ import java.io.IOException;
 //   custom exception------>>>>>>
 
 public class Exceptions {
-
     public static void main(String[] args) {
         int age = 16;
 
