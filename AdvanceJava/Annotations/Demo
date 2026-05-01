@@ -1,0 +1,9 @@
+Package 
+
+@interface Demo{    //  this is a custom annotation and also called marker annotation -->
+    int value() default 0;   // agr ek hi line hoti to ye single valued annotation hota..
+
+    String name() default "default name";      // is line ko  add krne se ye multivalued annotation ban jayega
+
+
+}
